@@ -3,8 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/ic_cancel.xml" value="0.37864583333333335" />
+        <entry key="app/src/main/res/drawable/ic_left_arrow.xml" value="0.37864583333333335" />
+        <entry key="app/src/main/res/drawable/ic_letter_w_topbar.xml" value="0.37864583333333335" />
+        <entry key="app/src/main/res/drawable/ic_loupe.xml" value="0.21875" />
         <entry key="app/src/main/res/layout/activity_loading.xml" value="0.3625" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.3625" />
+        <entry key="app/src/main/res/menu/toolbar_menu.xml" value="0.3625" />
       </map>
     </option>
   </component>

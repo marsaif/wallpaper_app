@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">wallpaper</string>
+    <string name="home">Home</string>
+    <string name="categories">Categories</string>
+    <string name="title_top_bar">allpaper</string>
+    <string name="search">search</string>
 </resources>
