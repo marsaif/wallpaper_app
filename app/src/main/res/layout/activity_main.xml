@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/wineberry"
     tools:context=".activities.MainActivity">
 
     <androidx.appcompat.widget.Toolbar
@@ -18,6 +17,7 @@
         android:background="@color/wineberry"/>
 
     <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/wineberry"
@@ -26,16 +26,23 @@
         app:tabIndicatorColor="@color/white">
 
         <com.google.android.material.tabs.TabItem
+            android:id="@+id/tab_home"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/home" />
 
         <com.google.android.material.tabs.TabItem
+            android:id="@+id/tab_categories"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/categories" />
 
     </com.google.android.material.tabs.TabLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
 
 
 
