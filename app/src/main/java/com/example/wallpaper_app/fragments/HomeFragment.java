@@ -63,7 +63,7 @@ public class HomeFragment extends Fragment {
     public void requestWallpapers()
     {
 
-        String url = "https://api.pexels.com/v1/curated?page=1&per_page=15" ;
+        String url = "https://api.pexels.com/v1/search?query=popular?page=1&per_page=15" ;
         JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.GET, url, null, new Response.Listener<JSONObject>() {
             @Override
             public void onResponse(JSONObject response) {
